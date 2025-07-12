@@ -1,0 +1,14 @@
+# pip freeze > requirements.txt
+streamlit
+PyMuPDF
+scikit-learn
+numpy
+pandas
+transformers
+sentence-transformers
+torch
+tqdm
+nltk
+langchain
+faiss-cpu
+fitz
