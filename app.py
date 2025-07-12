@@ -56,7 +56,7 @@ if uploaded_file:
     mode = st.sidebar.selectbox("Choose a mode", ["Summary", "Ask Anything", "Challenge Me"])
 
     if mode == "Summary":
-        st.subheader("Document Summary (up to 150 words)")
+        st.subheader("Document Summary")
         if st.button("Show Summary"):
             with st.spinner("Generating summary..."):
                 summary = gpt_summary_openrouter(structured_text)

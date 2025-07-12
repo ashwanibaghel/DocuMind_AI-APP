@@ -1,14 +1,4 @@
-# pip freeze > requirements.txt
-streamlit
-PyMuPDF
-scikit-learn
-numpy
-pandas
-transformers
-sentence-transformers
-torch
-tqdm
-nltk
-langchain
-faiss-cpu
-fitz
+streamlit==1.35.0           
+PyPDF2==3.0.1               
+requests==2.31.0            
+python-dotenv==1.0.1        
